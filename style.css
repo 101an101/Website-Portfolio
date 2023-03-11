@@ -1,65 +1,13 @@
-body {
-    background-color:black;
-  }
-  
-  #text {
-    color: white;
-  }
-  
-  .word {
-    font-size:100px;
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .intro {
-    font-size: 75px;
-    font-family: "Courior New", monospace;
-  }
-  
-  .L-title {
-    list-style: none;
-    line-height: 1em;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-  }
-  
-  .L-heading {
-    list-style: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-  }
-  
-  .L-body {
-    list-style:none;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-  }
-  
-  #TSKILLS {
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .header ul {
-    display: flex;
-    flex-direction: row;
-    column-gap: 10px;
-    font-family: "Roboto", monospace;
-    list-style: none;
-  }
-  
-  .header li a {
-    text-decoration: none;
-    border-right: solid 1px white;
-    padding-right: 5px;
-    margin:0;
-  }
-  
-  .photo-wrapper {
-    display: flex;
-    justify-content: center;
-  }
-  
+#icon-container{
+    position: relative;
+    min-height: 100vh;
+}
+#icon-wrapper{
+    padding-bottom: 2.5rem;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
