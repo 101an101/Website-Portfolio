@@ -1,9 +1,17 @@
  body{
-    background-color: navajowhite;
+    background-color: rgb(52, 99, 137);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ }
+ header{
+   padding-top: 10px;
+   text-align: center;
+   color: black;
  }
  footer{
     position:absolute;
-    background-color: gray;
+    background-color: rgb(122, 122, 187);
     bottom:0;
     left:0;
     right: 0;
@@ -12,4 +20,5 @@
     font-family: 'Times New Roman', Times, serif;
     padding-top: 10px;
     color: black;
+    text-align: left;
  }
