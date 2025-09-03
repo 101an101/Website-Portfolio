@@ -6,6 +6,23 @@
    overflow: scroll;
    scroll-behavior: smooth;
  }
+ .nav-bar {
+  display: flex;
+  gap: 1rem;
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  color: #004084;
+}
+
  body{
    background-color: rgb(52, 99, 137);
    color: white;
